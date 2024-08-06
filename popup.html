@@ -44,6 +44,10 @@
     #loading img {
       max-width: 100%;
     }
+    .instruction {
+      text-align: center;
+      padding: 20px;
+    }
   </style>
 </head>
 <body>
@@ -52,6 +56,9 @@
     <img src="spinner.gif" alt="Loading..." />
   </div>
   <ul id="merge-requests" style="display: none;"></ul>
+  <div id="instructions" class="instruction" style="display: none;">
+    <p>Please set your GitLab token and query URL in the <a href="#" id="options-link">extension options</a>.</p>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

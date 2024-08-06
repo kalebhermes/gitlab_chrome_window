@@ -3,7 +3,7 @@
   "name": "GitLab Merge Requests",
   "version": "1.0",
   "description": "View your open GitLab merge requests with pipeline status.",
-  "permissions": ["tabs", "https://gitlab.com/*"],
+  "permissions": ["tabs", "storage"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -15,6 +15,7 @@
   "background": {
     "service_worker": "background.js"
   },
+  "options_page": "options.html",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
